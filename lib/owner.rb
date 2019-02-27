@@ -52,6 +52,6 @@ class Owner
    end
 
    def sell_pets
-     pets.[:dogs].[:cats].[:fishes].collect {|pets|pets.mood = "nervous"}
+     all.map {|pets|pets.mood = "nervous"}
    end
  end
