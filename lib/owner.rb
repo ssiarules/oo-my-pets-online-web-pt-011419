@@ -47,6 +47,6 @@ class Owner
      pets[:cats].collect {|cat|cat.mood = "happy"}
    end
 
-   def feed_fish 
-   end 
+   def feed_fish
+   end
  end
