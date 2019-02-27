@@ -53,5 +53,5 @@ class Owner
 
    def sell_pets
      pets.all.collect {|pets|pets.mood = "nervous"}
-   end 
+   end
  end
