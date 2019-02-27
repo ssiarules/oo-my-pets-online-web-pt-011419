@@ -42,4 +42,8 @@ class Owner
   def walk_dogs
     pets[:dogs].map {|dog|dog.mood = "happy"}
    end
+
+   def play_with_cats
+     pets[:dogs].collect {|cat|cat.mood = "happy"
+   end 
  end
