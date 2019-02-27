@@ -66,6 +66,4 @@ class Owner
      #{pets[:cats].size} cat(s)."
    end
 
-   end
-
  end
